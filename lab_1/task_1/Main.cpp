@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <math.h>
+#include <clocale>
 
 int main()
 {
+    std::setlocale(LC_ALL, ".UTF8"); 
     double x1 = 1, x2 = 10, x3 = 15, x0 = 10, y1 = 1, y2 = 10, y3 = 15, y0 = 5;
     double a, b, c, a1, b1, c1, S, S1, S2, S3, s, s1, s2, s3, Ssum, p, e, t, i;
 
